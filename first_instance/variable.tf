@@ -1,1 +1,3 @@
-variable "project" { default = "ethereal-terra-279604" }
+variable "image" { default = "ubuntu-os-cloud/ubuntu-1604-lts"}
+
+variable "machine_type" { default = "n1-standard-1"}
