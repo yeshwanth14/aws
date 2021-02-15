@@ -1,6 +1,6 @@
 provider "google" {
  project        = "ethereal-terra-279604"
- credentials    = "${file("credentials/secrets.json")}"
+ credentials    = "${file("aws/credentials/secrets.json")}"
  region         = "us-central1-a"
  }
 resource "google_container_cluster" "cluster" {
