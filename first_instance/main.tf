@@ -8,7 +8,6 @@ resource "google_container_cluster" "cluster" {
   location           = "us-central1-a"
   network            = "default"
   subnetwork         = "default"
-  initial_node_count = 2
   master_auth {
     username = "rapid"
     password = "admin#jenkins#123"
